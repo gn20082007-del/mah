@@ -1,0 +1,22 @@
+{
+  "name": "mfn-news-app",
+  "version": "1.0.0",
+  "description": "Mahoko Friday News — Full Stack React + Node.js + MongoDB",
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm start --prefix frontend\"",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm start --prefix frontend",
+    "seed": "npm run seed --prefix backend",
+    "build": "npm run build --prefix frontend",
+    "start": "npm start --prefix backend",
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down",
+    "docker:logs": "docker-compose logs -f"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "author": "Gerard — Mahoko Friday News",
+  "license": "MIT"
+}
