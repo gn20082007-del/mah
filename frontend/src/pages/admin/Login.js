@@ -48,9 +48,6 @@ export default function AdminLogin() {
             {loading ? 'Signing in…' : 'Sign In'}
           </button>
         </form>
-        <p style={{ textAlign: 'center', marginTop: 24, fontSize: 13, color: '#94a3b8' }}>
-          Default: <code style={{ background: '#f8fafc', padding: '2px 6px', borderRadius: 4 }}>Gerard banya</code> / <code style={{ background: '#f8fafc', padding: '2px 6px', borderRadius: 4 }}>admin123</code>
-        </p>
       </div>
     </div>
   );
