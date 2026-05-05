@@ -30,7 +30,7 @@ export default function AdminLogin() {
         <div style={{ textAlign: 'center', marginBottom: 40 }}>
           <div style={{ width: 60, height: 60, background: '#1a472a', borderRadius: 16, display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 16px', fontSize: 28, color: '#fff' }}>📰</div>
           <h1 style={{ fontWeight: 800, fontSize: '1.5rem', color: '#1a472a', marginBottom: 4 }}>MFN Admin</h1>
-          <p style={{ color: '#64748b', fontSize: 14 }}>Sign in to your dashboard</p>
+          <p style={{ color: '#64748b', fontSize: 14 }}>Sign in as admin</p>
         </div>
         {error && (
           <div style={{ background: '#fef2f2', color: '#b91c1c', padding: '12px 16px', borderRadius: 10, marginBottom: 20, fontSize: 14, textAlign: 'center' }}>{error}</div>
